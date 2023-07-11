@@ -1,0 +1,21 @@
+.home-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 2rem;
+}
+
+.action-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.action-btns button {
+    width: 300px;
+}

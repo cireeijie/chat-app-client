@@ -1,0 +1,44 @@
+.conversation-container {
+    flex: 3;
+    padding: 2rem;
+}
+
+.conversation {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.conversation-header p {
+    text-align: start;
+    font-size: 24px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+.conversation-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: auto;
+    margin: 10px;
+}
+
+.compose-message {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.compose {
+    flex: 1;
+    max-height: 200px;
+    min-height: 50px;
+    height: auto;
+    resize: none;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
